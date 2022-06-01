@@ -1,4 +1,4 @@
-package com.github.williamjbf.springbootstudy2;
+package com.github.williamjbf.springbootstudy2.Controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
