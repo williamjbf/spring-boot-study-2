@@ -2,6 +2,7 @@ package com.github.williamjbf.springbootstudy2;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.domain.EntityScan;
 
 @SpringBootApplication
 public class SpringBootStudy2Application {
