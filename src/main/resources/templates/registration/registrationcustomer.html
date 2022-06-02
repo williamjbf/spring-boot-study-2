@@ -1,5 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"
+      xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <title>Customer Registration</title>
@@ -13,5 +15,13 @@
         <input type="text" name="lastName"/>
         <button type="submit" value="save">save</button>
     </form>
+
+    <table>
+        <tr th:each="customer:${customers}">
+            <td th:text="${customer.id}"></td>
+            <td th:text="${customer.name}"></td>
+            <td th:text="${customer.lastName}"></td>
+        </tr>
+    </table>
 </body>
 </html>
